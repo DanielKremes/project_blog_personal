@@ -1,0 +1,12 @@
+.small-card-component {
+  display: flex;
+  flex-direction: column;
+}
+
+.small-card-component img {
+  max-width: 100%;
+}
+
+.small-card-component-content {
+  text-align: left;
+}

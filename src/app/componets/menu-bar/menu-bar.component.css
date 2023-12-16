@@ -1,5 +1,5 @@
 .back {
-  background-color: #00a4ff;
+  background-color: #232121;
   display: flex;
   justify-content: space-between;
   text-transform: uppercase;
@@ -22,7 +22,7 @@
 }
 
 #angular_material {
-  color: #751d75;
+  color: #fa0dfab7;
   text-decoration: none;
 }
 

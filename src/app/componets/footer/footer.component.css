@@ -1,0 +1,22 @@
+.footer {
+  background-color: #232121;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#developer {
+  margin: 1rem auto 1rem;
+}
+
+#typescript {
+  color: #035f57;
+}
+
+#angular {
+  color: #a10a0a;
+}
+
+#name {
+  color: #d8f000;
+}

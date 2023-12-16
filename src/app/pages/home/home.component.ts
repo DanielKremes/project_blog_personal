@@ -3,13 +3,14 @@ import { MenuTitleComponent } from "../../componets/menu-title/menu-title.compon
 import { MenuBarComponent } from "../../componets/menu-bar/menu-bar.component";
 import { BigCardComponent } from "../../componets/big-card/big-card.component";
 import { SmallCardComponent } from "../../componets/small-card/small-card.component";
+import { FooterComponent } from "../../componets/footer/footer.component";
 
 @Component({
     selector: 'app-home',
     standalone: true,
     templateUrl: './home.component.html',
     styleUrl: './home.component.css',
-    imports: [MenuTitleComponent, MenuBarComponent, BigCardComponent, SmallCardComponent]
+    imports: [MenuTitleComponent, MenuBarComponent, BigCardComponent, SmallCardComponent, FooterComponent]
 })
 export class HomeComponent {
 
