@@ -1,0 +1,65 @@
+<header>
+  <mat-toolbar class="back">
+    <nav class="nav-bar">
+      <ul class="nav-list">
+        <li>
+          <a [href]="'https://angular.io/'" [target]="'_blank'" class="link"
+            >Angular</a
+          >
+        </li>
+
+        <li>
+          <a
+            [href]="'https://material.angular.io/'"
+            [target]="'_blank'"
+            class="link"
+            >angular material</a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <button
+      mat-icon-button
+      [matMenuTriggerFor]="menu_teste"
+      class="example-icon"
+      aria-label="Example icon-button with menu icon"
+    >
+      <mat-icon class="mat-menu">menu</mat-icon>
+    </button>
+
+
+    <mat-menu #menu_teste>
+
+      <ul>
+        <li class="link_menu">
+          <a
+            mat-menu-item
+            [href]="'https://www.linkedin.com/in/daniel-kremes-94919227b/'"
+            [target]="'_blank'"
+            >Linkedin</a
+          >
+        </li>
+
+        <li class="link_menu">
+          <a
+            mat-menu-item
+            [href]="'https://github.com/DanielKremes?tab=repositories'"
+            [target]="'_blank'"
+            >GitHub</a
+          >
+        </li>
+
+        <li class="link_menu">
+          <a
+            mat-menu-item
+            [href]="'https://github.com/DanielKremes/project_blog_personal'"
+            [target]="'_blank'"
+            >Repositorio project</a
+          >
+        </li>
+      </ul>
+
+    </mat-menu>
+  </mat-toolbar>
+</header>

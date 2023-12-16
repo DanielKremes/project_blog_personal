@@ -1,0 +1,31 @@
+.back {
+  /* background-color: #00a4ff; */
+  background-color: #424242;
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  height: 80px;
+  /* color: #4b0082; */
+}
+
+.nav-bar {
+  font-size: 1rem;
+}
+
+.nav-list {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+
+.link {
+  /* color: #4b0082; */
+  color: red;
+  text-decoration: none;
+}
+
+.link_menu a{
+  color: #9acd32;
+  text-decoration: none;
+  text-transform: uppercase;
+}
