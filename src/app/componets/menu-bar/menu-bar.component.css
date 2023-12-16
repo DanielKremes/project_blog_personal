@@ -1,11 +1,9 @@
 .back {
-  /* background-color: #00a4ff; */
-  background-color: #424242;
+  background-color: #00a4ff;
   display: flex;
   justify-content: space-between;
   text-transform: uppercase;
   height: 80px;
-  /* color: #4b0082; */
 }
 
 .nav-bar {
@@ -18,14 +16,23 @@
   list-style: none;
 }
 
-.link {
-  /* color: #4b0082; */
-  color: red;
+#angular {
+  color: #ca1515;
   text-decoration: none;
 }
 
-.link_menu a{
-  color: #9acd32;
+#angular_material {
+  color: #751d75;
+  text-decoration: none;
+}
+
+.link {
+  text-decoration: none;
+  color: dd0031;
+}
+
+.link_menu a {
   text-decoration: none;
   text-transform: uppercase;
+  color: greenyellow;
 }
