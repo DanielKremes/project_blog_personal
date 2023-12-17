@@ -1,9 +1,17 @@
-# ProjectBlogPersonalVersion01
+# Project Blog Personal Version 01
 
-# Adicionado o menu-mav na pagina.
-# Link pagina: https://danielkremes.github.io/project_blog_personal/
+# Link pagina: [![Project Blog Personal Version 01](https://img.shields.io/badge/Project_Blog_Personal_Version_01-DD0031?style=for-the-badge&logo=Angular&logoColor=white)](https://danielkremes.github.io/project_blog_personal/)
 
-# em desenvolvimento
+# Projeto Concluido.
 
-# last modified 16 de dezembro 1.13 da manha.
+# Stacks usadas
+- Angular
+- Angular Material
+- TypeScript
+  
+# Conceitos usados.
+- Web Componentes
+- Mobile First
+  
+# Finished 16 de dezembro de 2023.
 
