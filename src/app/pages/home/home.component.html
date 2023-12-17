@@ -1,5 +1,52 @@
-<app-menu-bar></app-menu-bar>
-<app-menu-title></app-menu-title>
-<app-big-card></app-big-card>
-<app-small-card></app-small-card>
-<app-footer></app-footer>
+<header>
+  <app-menu-bar></app-menu-bar>
+  <app-menu-title></app-menu-title>
+</header>
+
+<main class="main_container">
+  <section>
+    <app-big-card
+      [image]=" 'assets/images/moon-landing-apollo-11-nasa-buzz-aldrin-41162.png'"
+      [article]=" 'Man moon' "
+      [description]="'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore doloribus saepe similique alias accusamus amet deserunt sequi molestias officia id? Omnis facere deleniti laboriosam excepturi esse ducimus dolorum et nam' "
+      >
+    </app-big-card>
+  </section>
+
+  <section>
+
+    <app-small-card
+    [image]="'assets/images/earth.png'"
+    [title]="'earth'"
+    [description]="'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates quasi dicta aut, asperiores odit voluptatum mollitia possimus magnam corporis esse eum nihil aperiam nobis minima impedit quam qui quo unde?'"
+    [date_posted]="'12/16/2023'"
+    >
+
+    </app-small-card>
+
+    <app-small-card
+    [image]="'assets/images/star.png'"
+    [title]="'star'"
+    [description]="'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates quasi dicta aut, asperiores odit voluptatum mollitia possimus magnam corporis esse eum nihil aperiam nobis minima impedit quam qui quo unde?'"
+    [date_posted]="'12/16/2023'"
+    >
+
+
+    </app-small-card>
+
+
+    <app-small-card
+    [image]="'assets/images/games.png'"
+    [title]="'games'"
+    [description]="'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates quasi dicta aut, asperiores odit voluptatum mollitia possimus magnam corporis esse eum nihil aperiam nobis minima impedit quam qui quo unde?'"
+    [date_posted]="'12/16/2023'"
+    >
+
+    </app-small-card>
+
+  </section>
+</main>
+
+<footer>
+  <app-footer></app-footer>
+</footer>

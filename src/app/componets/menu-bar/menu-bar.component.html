@@ -1,20 +1,25 @@
 <header>
   <mat-toolbar class="back">
-
     <nav class="nav-bar">
       <ul class="nav-list">
         <li>
-          <a [href]="'https://angular.io/'" [target]="'_blank'" id="angular"
-            >Angular</a
+
+
+          <a
+            [href]="'https://www.linkedin.com/in/daniel-kremes-94919227b/'"
+            [target]="'_blank'"
+            id="linkedin"
+          >
+            <span id="linkdein_hover">Linkedin</span></a
           >
         </li>
 
         <li>
           <a
-            [href]="'https://material.angular.io/'"
+            [href]="'https://github.com/DanielKremes?tab=repositories'"
             [target]="'_blank'"
-            id="angular_material"
-            >angular material</a
+            id="github"
+            ><span id="github_hover">GitHub</span></a
           >
         </li>
       </ul>
@@ -29,29 +34,24 @@
       <mat-icon>menu</mat-icon>
     </button>
 
-
     <mat-menu #menu_teste>
-
       <ul>
-        <li class="link_menu">
-          <a
-            mat-menu-item
-            [href]="'https://www.linkedin.com/in/daniel-kremes-94919227b/'"
-            [target]="'_blank'"
-            >Linkedin</a
+        <li id="angular">
+          <a mat-menu-item [href]="'https://angular.io/'" [target]="'_blank'"
+            >Angular</a
           >
         </li>
 
-        <li class="link_menu">
+        <li id="angular_material">
           <a
             mat-menu-item
             [href]="'https://github.com/DanielKremes?tab=repositories'"
             [target]="'_blank'"
-            >GitHub</a
+            >angular material</a
           >
         </li>
 
-        <li class="link_menu">
+        <li id="link_menu">
           <a
             mat-menu-item
             [href]="'https://github.com/DanielKremes/project_blog_personal'"
@@ -60,7 +60,6 @@
           >
         </li>
       </ul>
-
     </mat-menu>
   </mat-toolbar>
 </header>

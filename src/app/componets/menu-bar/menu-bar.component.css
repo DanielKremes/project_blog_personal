@@ -16,23 +16,55 @@
   list-style: none;
 }
 
-#angular {
-  color: #ca1515;
+
+#linkedin {
+  color: #0A66C2;
   text-decoration: none;
+  font-size: 1rem;
 }
 
-#angular_material {
-  color: #fa0dfab7;
-  text-decoration: none;
+#linkdein_hover:hover {
+  color: #568abe;
 }
 
-.link {
+#github {
+  color: #ffffff;
   text-decoration: none;
-  color: dd0031;
+  font-size: 1rem;
 }
 
-.link_menu a {
+#github_hover:hover {
+  color: #9c9797;
+}
+
+#angular a{
+  color: #ff1e00;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+#angular_material a {
+  color: #ec0eec;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+
+#link_menu a {
   text-decoration: none;
   text-transform: uppercase;
   color: greenyellow;
+  font-size: 2rem;
+}
+
+
+
+@media screen and (max-width:768px) {
+  .back {
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    height: 80px;
+  }
 }

@@ -1,3 +1,58 @@
-#image {
-  width: 100%;
+@media screen and (max-width:768px) {
+  #image {
+    width: 100%;
+  }
+
+  section {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .content-big-card {
+    margin-top: 1rem;
+  }
+
+  .content-big-card h1 {
+    font-size: 3rem;
+  }
+
+  .content-big-card p {
+    font-size: 1.5rem;
+    line-height: 1.6rem;
+  }
+
+}
+
+@media screen and (min-width:769px) {
+  section {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    /* border: 1px solid greenyellow; */
+    margin-left: 2rem;
+  }
+
+  #image {
+    width: 100%;
+  }
+
+  .content-big-card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content-big-card h1 {
+    font-size: 3rem;
+    margin-top: 1rem;
+  }
+
+  .content-big-card p {
+    font-size: 1.6rem;
+    line-height: 1.5rem;
+  }
+
+  figcaption {
+    display: none;
+  }
+
 }
