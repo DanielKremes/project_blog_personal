@@ -5,7 +5,7 @@ import { Component, Input } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './big-card.component.html',
-  styleUrl: './big-card.component.css'
+  styleUrls: ['./big-card.component.css', './big-card-resposible.css'],
 })
 export class BigCardComponent {
 

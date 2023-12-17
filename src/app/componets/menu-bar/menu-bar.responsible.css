@@ -1,0 +1,9 @@
+@media screen and (max-width:768px) {
+  .back {
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    height: 80px;
+  }
+}

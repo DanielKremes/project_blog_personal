@@ -9,7 +9,7 @@ import {MatToolbarModule} from '@angular/material/toolbar';
   standalone: true,
   imports: [MatButtonModule, MatMenuModule,MatButtonModule,MatIconModule,MatToolbarModule],
   templateUrl: './menu-bar.component.html',
-  styleUrl: './menu-bar.component.css'
+  styleUrls: ['./menu-bar.component.css','./menu-bar.responsible.css'],
 })
 export class MenuBarComponent {
 

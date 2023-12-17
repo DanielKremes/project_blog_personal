@@ -9,7 +9,7 @@ import { FooterComponent } from "../../componets/footer/footer.component";
     selector: 'app-home',
     standalone: true,
     templateUrl: './home.component.html',
-    styleUrl: './home.component.css',
+    styleUrls: ['./home.component.css','./home.responsible.css'],
     imports: [MenuTitleComponent, MenuBarComponent, BigCardComponent, SmallCardComponent, FooterComponent]
 })
 export class HomeComponent {

@@ -1,0 +1,24 @@
+@media screen and (max-width:768px) {
+  #image {
+    width: 100%;
+  }
+
+  section {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .content-big-card {
+    margin-top: 1rem;
+  }
+
+  .content-big-card h1 {
+    font-size: 3rem;
+  }
+
+  .content-big-card p {
+    font-size: 1.5rem;
+    line-height: 1.6rem;
+  }
+
+}
